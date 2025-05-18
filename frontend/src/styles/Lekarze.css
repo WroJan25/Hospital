@@ -1,0 +1,56 @@
+.lekarzeKontener {
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lekarzeTytul {
+    font-size: 2.5rem;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lekarzeLista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lekarzeElement {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #b3d8ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.lekarzeElement:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lekarzeElement p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.lekarzeElement strong {
+    color: #0056b3;
+}
+
+.lekarzeBlad {
+    color: #FF4D4D;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lekarzeBrak {
+    font-size: 1.5rem;
+    color: #6c757d;
+    text-align: center;
+    margin-top: 20px;
+}

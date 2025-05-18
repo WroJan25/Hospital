@@ -1,0 +1,20 @@
+.brakDostepuKontener {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.brakDostepuKontener h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FF4D4D;
+    margin-bottom: 20px;
+}
+
+.brakDostepuKontener::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #FF4D4D;
+    margin: 20px auto 0;
+}

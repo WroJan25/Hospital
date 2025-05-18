@@ -1,0 +1,99 @@
+.pacjent-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.healthbook-table {
+    width: 100%;
+    border-collapse:collapse;
+    margin-top: 15px;
+}
+
+.healthbook-table th, .healthbook-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.healthbook-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.healthbook-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.healthbook-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.date-input, .select-input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-btn, .save-btn, .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-btn:hover, .save-btn:hover, .edit-btn:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.empty-message {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.loading {
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-diagnosis-form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}

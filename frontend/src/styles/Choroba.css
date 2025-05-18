@@ -1,0 +1,82 @@
+.choroba-container {
+    padding: 20px;
+    background-color: #f7f7f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.choroba-title {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.choroba-details p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.choroba-form div {
+    margin-bottom: 15px;
+}
+
+.choroba-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.choroba-form input,
+.choroba-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.choroba-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.choroba-table th,
+.choroba-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.choroba-table th {
+    background-color: #e9ecef;
+}
+
+.button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.save-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.cancel-button {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 20px;
+}

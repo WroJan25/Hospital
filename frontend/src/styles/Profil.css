@@ -1,0 +1,101 @@
+.profil-container {
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.profil-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333333;
+}
+
+.profil-container p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.profil-container strong {
+    font-weight: bold;
+}
+
+.profil-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.profil-container form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profil-container form label {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+.profil-container form input,
+.profil-container form select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profil-container form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profil-container form button:hover {
+    background-color: #0056b3;
+}
+
+.profil-container .error-message {
+    color: red;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.profil-container .action-buttons {
+    margin-top: 1rem;
+}
+
+.profil-container .action-buttons button {
+    margin-right: 1rem;
+}
+
+.specjalizacja-section {
+    margin-top: 1rem;
+}
+
+.specjalizacja-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.specjalizacja-section select {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.specjalizacja-section button {
+    margin-top: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+

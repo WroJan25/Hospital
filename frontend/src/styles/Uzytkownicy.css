@@ -1,0 +1,93 @@
+
+.uzytkownicyKontener {
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+.uzytkownicyKontener h1 {
+    font-size: 2.5rem;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+.uzytkownicyKontener button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.uzytkownicyKontener button:hover {
+    background-color: #0056b3;
+}
+
+.uzytkownicyKontener button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.uzytkownicyKontener input {
+    padding: 0.5rem;
+    margin: 10px 0;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.uzytkownicyKontener input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.uzytkownicyKontener .blad {
+    color: #FF4D4D;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+ .lista-uzytkownikow {
+    margin-top: 20px;
+    font-size: 1.2rem;
+
+}
+
+.lista-uzytkownikow div {
+    margin-bottom: 10px;
+    padding: 1rem;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.lista-uzytkownikow div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+ .formularz-dodawania {
+    margin-top: 20px;
+}
+
+.formularz-dodawania h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+
+}
+
+.formularz-dodawania input {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.formularz-dodawania button {
+    margin-top: 10px;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    transition: background-color 0.3s ease;
+}
+
+.formularz-dodawania button:hover {
+    background-color: #218838;
+}
